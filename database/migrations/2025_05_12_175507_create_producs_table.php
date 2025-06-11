@@ -19,7 +19,6 @@ return new class extends Migration
             $table->string('category');
             $table->string('image');
             $table->integer('status')->default(1);
-            $table->longText('des');
             $table->timestamps();
         });
     }
